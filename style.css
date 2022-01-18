@@ -24,7 +24,8 @@ h3{
     border: 2px;
 }
 form input[type=email],
-form input[type=password]{
+form input[type=password],
+form input[type=text]{
     height: 20px;
     width: 100%;
     border: 2px solid rgb(182, 182, 245);
