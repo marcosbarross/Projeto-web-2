@@ -14,11 +14,17 @@ body{
     padding: 15px;
     border-radius: 10px;
 }
+.tabe{
+    margin: auto;
+    max-width: 60%;
+    align-items: center;
+    justify-content: center;
+}
 #log-box{
     background-color: rgb(255, 255, 255);
-    margin: auto;
     padding: 15px;
     border-radius: 10px;
+    margin: auto;
 }
 h3{
     color: rgb(182, 182, 245);
@@ -36,4 +42,21 @@ form input[type=text]{
     width: 100%;
     border: 2px solid rgb(182, 182, 245);
     margin: 3px 0;
+}
+
+.doctors{
+    max-width: 150px;
+    border-radius: 100px;
+}
+
+.meds{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.titulo{
+    color: white;
 }
