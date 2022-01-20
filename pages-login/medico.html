@@ -12,12 +12,26 @@
     <form>
         <div class="box">
             <h3>Login médico:</h3>
-            <hr>    
-            <input type="email" name="med-login" id="mail" placeholder="E-mail">
+            <hr>
+            <div style="margin: auto;">
+                <div class="choose-docs" id="gabrielwilson" onmouseover="cor()" onclick="gabchoose()">
+                    Gabriel Wilson
+                </div>
+                <div class="choose-docs" id="giovanna" onmouseover="cor1()" onclick="giochoose()"
+                >
+                    Giovanna Dias
+                </div>
+                <div class="choose-docs" id="manoel" onclick="manchoose()">
+                    Manoel Ptolomeu
+                </div>
+            </div>
             <br>
             <input type="password" name="med-login" id="pass" placeholder="Senha">
-            <button type="submit" id="login-button" onClick="validar()">Entrar</button>
+            <a href="" class="medbutton"></a>
             <hr>
+            <div id="hiddenbutton">
+
+            </div>
         </div>
     </form>
     <script src="../script.js"></script>
