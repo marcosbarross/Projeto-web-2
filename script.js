@@ -1,6 +1,11 @@
 var email = document.querySelector('#mail')
 var password = document.querySelector('#pass')
 var cnpj = document.querySelector('#cnpj')
+var med = document.querySelector('.medlist')
+var gab = document.getElementById('gabrielwilson')
+var gio = document.getElementById('giovanna')
+var man = document.getElementById('manoel')
+var hiddenbutton = document.getElementById('hiddenbutton')
 
 //link não está funcionando no github
 function validar(){
@@ -42,6 +47,54 @@ function validarcnpj(){
         window.alert("Número de CNPJ inválido!");
     }
 }
+
+/*function validarmed(){
+    var logmed = querySelector('.medbutton')
+    if(med.value == 'gio'){
+        window.alert('ta funcionando')
+        /*document.querySelector('.medbutton').innerHTML = <a href="../med-page/gio.html" class="medbutton"><button type="submit" id="login-button" onclick="validarmed()">Entrar</button></a>*/
+
+
+//script gabriel
+function gabchoose(){
+    gab.style.background = 'rgb(78, 112, 224)';
+    if (password.value.length > 0){
+        hiddenbutton.innerHTML = `<a href="../med-page/gabriel.html">Entrar</a>`
+    }
+    else{
+        window.alert('insira a senha!')
+        gab.style.background = 'rgb(182, 182, 245)';
+    }
+}
+
+//--------------------------------------------------
+
+//script giovanna
+function giochoose(){
+    gio.style.background = 'rgb(78, 112, 224)';
+    if (password.value.length > 0){
+        hiddenbutton.innerHTML = `<a href="../med-page/gio.html">Entrar</a>`
+    }
+    else{
+        window.alert('insira a senha!')
+        gio.style.background = 'rgb(182, 182, 245)';
+    }
+}
+
+//-------------------------------------------------
+
+//script manoel
+function manchoose(){
+    man.style.background = 'rgb(78, 112, 224)';
+    if (password.value.length > 0){
+        hiddenbutton.innerHTML = `<a href="../med-page/manoel.html">Entrar</a>`
+    }
+    else{
+        window.alert('insira a senha!')
+        man.style.background = 'rgb(182, 182, 245)';
+    }
+}
+
 
 /* function maskcnpj(){
     const cnpjpre = cnpj.value
