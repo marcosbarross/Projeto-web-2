@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <img src="imgs/maissaudelogo.png" alt="" style="max-width: 220px;">
+    <img src="../imgs/maissaudelogo.png" alt="" style="max-width: 220px;">
     <form>
         <div class="box">
             <h3>Login paciente:</h3>
@@ -16,8 +16,12 @@
             <input type="email" name="pac-login" id="mail" placeholder="E-mail">
             <br>
             <input type="password" name="pac-login" id="pass" placeholder="Senha">
-            <button id="login-button" onclick="validar()">Entrar</button>
+            <button id="login-button" onclick="validar()">Enviar</button>
+            
             <hr>
+        </div>
+        <div id="hiddenbutton">
+
         </div>
     </form>
     <script src="../script.js"></script>
