@@ -44,6 +44,12 @@ form input[type=text]{
     margin: 3px 0;
 }
 
+.med-list{
+    height: 20px;
+    width: 100%;
+    border: 2px solid rgb(182, 182, 245);
+    margin: 3px 0;
+}
 .doctors{
     max-width: 150px;
     border-radius: 100px;
@@ -59,4 +65,14 @@ form input[type=text]{
 
 .titulo{
     color: white;
+}
+.choose-docs{
+    color: white;
+    background-color: rgb(182, 182, 245);
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
