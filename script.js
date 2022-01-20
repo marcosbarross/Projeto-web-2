@@ -44,7 +44,7 @@ function validarcnpj(){
 function gabchoose(){
     gab.style.background = 'rgb(78, 112, 224)';
     if (password.value.length > 0){
-        hiddenbutton.innerHTML = `<a href="../med-page/gabriel.html">Entrar</a>`
+        window.open("../med-page/gabriel.html")
     }
     else{
         window.alert('insira a senha!')
@@ -58,7 +58,7 @@ function gabchoose(){
 function giochoose(){
     gio.style.background = 'rgb(78, 112, 224)';
     if (password.value.length > 0){
-        hiddenbutton.innerHTML = `<a href="../med-page/gio.html">Entrar</a>`
+        window.open("../med-page/gio.html")
     }
     else{
         window.alert('insira a senha!')
@@ -72,7 +72,7 @@ function giochoose(){
 function manchoose(){
     man.style.background = 'rgb(78, 112, 224)';
     if (password.value.length > 0){
-        hiddenbutton.innerHTML = `<a href="../med-page/manoel.html">Entrar</a>`
+        window.open("../med-page/manoel.html")
     }
     else{
         window.alert('insira a senha!')
