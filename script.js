@@ -20,7 +20,6 @@ function validar(){
      }
      else {
             window.open(`../logged-pages/pagina-paciente.html`)
-            hiddenbutton.innerHTML = `<a href="../logged-pages/pagina-paciente.html">Entrar</a>`
     }
 }
 

@@ -84,3 +84,7 @@ form input[type=text]{
     margin-left: auto;
     margin-right: auto;
 }
+.header-box{
+    max-height: 20%;
+    width: 100%;
+}
